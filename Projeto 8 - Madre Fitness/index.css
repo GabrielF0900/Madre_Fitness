@@ -1,0 +1,293 @@
+body {
+    background-color: rgba(9,33,59,255);
+    height: 10000px;
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url(Italiana-Regular.ttf);
+}
+
+/*Inicio do cabecalho */
+
+#introducao {
+    display: flex;
+}
+
+.menus_introducao {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+.planos {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #efa234;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.sobre_nos {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #efa234;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 30px;
+
+}
+
+.academia {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #efa234;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 30px;
+
+}
+
+.login {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #efa234;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+
+
+.imagens_introducao {
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.madre {
+    position: absolute;
+    font-family:'fonte';
+    font-size: 60px;
+    color: #efa234;
+    margin-top: 250px;
+    left: 130px;
+}
+
+.fitness {
+    position: absolute;
+    font-family:'fonte';
+    font-size: 60px;
+    color: #efa234;
+    margin-top: 310px;
+    left: 130px;
+}
+
+.agendar1 {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #efa234;
+    margin-top: 400px;
+    left: 130px;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+/* Fim do cabecalho */
+
+/* Inicio do corpo 1 */
+
+#corpo1 {
+    display: flex;
+    margin-top: 500px;
+    position: absolute;
+}
+
+.atletam {
+    display: flex;
+    margin-left: 100px;
+}
+
+.titulo_planos {
+    display: flex;
+    position: absolute;
+    color: #efa234;;
+    font-family: 'fonte';
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.agendar_planos {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #efa234;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 120px;
+}
+
+/*Fim do corpo 1*/
+
+/* Inicio do corpo 2 */
+
+#corpo2 {
+    display: flex;
+    margin-top: 1500px;
+}
+
+
+.letras_corpo2 {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: #efa234;
+    font-family: 'fonte';
+}
+
+.plano2 {
+    margin-left: 50px;
+}
+
+.prime2 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.agendar_prime {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #efa234;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    margin-top: 280px;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Fim do corpo 2 */
+
+/* Inicio do corpo 3 */
+
+#corpo3 {
+    display: flex;
+}
+
+.imagem_fundo3 {
+    margin-top: 100px;
+}
+
+.letras_corpo3 {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: #efa234;
+    font-family: 'fonte';
+
+}
+
+.plano3 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.basic3 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.agendar_basic {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #efa234;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    margin-top: 430px;
+    margin-left: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+#corpo4 {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.letras_corpo4 {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: #efa234;
+    font-family: 'fonte';
+
+}
+.plano4 {
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.medium4 {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.agendar_medium {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #efa234;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    margin-top: 330px;
+    margin-left: 100px;
+}
+
+/*Fim do corpo 4 */
+
+/* Inicio do rodape */
+
+#rodape {
+    display: flex;
+    position: absolute;
+    font-family: 'fonte';
+    color: #efa234;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.email {
+    margin-top: 100px;
+    position: absolute;
+}
